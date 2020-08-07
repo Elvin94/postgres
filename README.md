@@ -11,10 +11,10 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 4) Complete your registration by clicking **Request your trial**.
 5) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal
 
-## VM Setup
+## Virtual Machine deployment Setup
 
-1)  Follow instructions [here](https://github.com/linuxone-community-cloud/tutorials/blob/master/deploy-virtual-server.md)
+1)  How deploy Virtual Machine from Linux Community Cloud, Follow instructions [here](https://github.com/linuxone-community-cloud/tutorials/blob/master/deploy-virtual-server.md)
 
-
+## 
 
 
