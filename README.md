@@ -16,6 +16,6 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 
 # How to install postgres database server on LinuxONE Community Cloud
 
-'''bash
+
 rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
-'''
+
