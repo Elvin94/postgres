@@ -9,16 +9,16 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 
 
 ### Step 1: Install postgres database server on LinuxONE Community Cloud
-   1. Import postgres package
+   1.1 Import postgres package
    ```sh
    rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
    ```
     
-   2. Configure yum repo
+   1.2 Configure yum repo
    ```sh
    yum-config-manager --add-repo http://packages.2ndquadrant.com/postgresql-z/yum/12/rhel7-s390x
    ```
-   3. Install postgresql
+   1.3 Install postgresql
    ```sh
    sudo yum install postgresql-server
    ```
@@ -26,15 +26,15 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    
    ### Step 2: Configure Postgresql server
    
-   1. Start postgresql service
+   2.1 Start postgresql service
    ```sh
    sudo system start postgresql.service 
    ```
-   2. Enable postgres
+   2.2 Enable postgres
    ```sh
   sudo system enable postgresql.service 
    ```
-   3. Check status of the postgresql server
+   2.3 Check status of the postgresql server
    ```sh
    sudo systemctl status postgresql.service 
    ```
@@ -46,19 +46,19 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
     
    ### Step 3: Connect to Postgresql Database
    
-   1. Change the user to default postgres user
+   3.1 Change the user to default postgres user
    ```sh
    sudo su - postgres 
    ```
-   2. Enter command "psql" to get to postgresql command line
+   3.2 Enter command "psql" to get to postgresql command line
    ```sh
    psql 
    ```
-   3. Check connection
+   3.3 Check connection
    ```sh
    \conninfo
    ```
-   4. Check postgres version
+   3.4 Check postgres version
    ```sh
     SELECT VERSION();
    ```
