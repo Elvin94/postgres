@@ -27,3 +27,11 @@ rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
    ```sh
    iptables-save > /etc/sysconfig/iptables 
    ```
+## Important notes about your server:
+1) You can use ‘sudo’ to execute commands that require root authority.
+
+2) It could take up to 10 minutes to format and mount the /data disk.  Issue the following command to verify the /data disk is available before continuing:
+   ```sh
+   df -h 
+   ```
+   ![alt text](images/create_schema.png "Check /data disk")
