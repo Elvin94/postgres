@@ -23,8 +23,26 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    sudo yum install postgresql-server
    ```
    
+   
+   ### Step 2: Configure Postgresql server
+   
 # How to install postgres database server on LinuxONE Community Cloud
-
+   1. Start postgresql service
+   ```sh
+   sudo system start postgresql.service 
+   ```
+   2. Enable postgres
+   ```sh
+  sudo system enable postgresql.service 
+   ```
+   3. Check status of the postgresql server
+   ```sh
+   sudo systemctl status postgresql.service 
+   ```
+   
+   Optional - Output should look like this
+   
+   ![alt text](images/configs.png "Check /data disk")
 
 rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
 
