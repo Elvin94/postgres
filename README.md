@@ -15,8 +15,9 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```
     
    2. Configure yum repo
-
-
+   ```sh
+   yum-config-manager --add-repo http://packages.2ndquadrant.com/postgresql-z/yum/12/rhel7-s390x
+   ```
 
 # How to install postgres database server on LinuxONE Community Cloud
 
