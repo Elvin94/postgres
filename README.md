@@ -12,7 +12,8 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    1. Import postgres package
    ```sh
    rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
-    ```
+   ```
+    
    2. Configure yum repo
 
 
