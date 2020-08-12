@@ -50,6 +50,7 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```sh
    sudo su - postgres 
    ```
+   ![alt text](images/user_postgres.png "Check /data disk")
    3.2 Enter command "psql" to get to postgresql command line
    ```sh
    psql 
