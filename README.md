@@ -62,7 +62,8 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```sh
    \conninfo
    ```
-   
+   ![alt text](images/conninfo.png "Check /data disk")
+    
    3.4 Check postgres version
    ```sh
     SELECT VERSION();
