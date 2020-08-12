@@ -68,23 +68,18 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
     SELECT VERSION();
    ```
    
+   ### Step 4: Interact with Postgresql Database
+
+   4.1 Create schema
    
+   4.2 Create user
+   
+   4.3 Grant privileges to new schema to a new user(Optional)
+   
+   4.4 Grant privileges to tables in the schema to a user(Optional)
+   
+   4.5 Create table
+   
+   4.6 
 
-rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
-
-3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
-   ```sh
-   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
-   ```
-   If you want to make your changes permanently, issue this command:
-   ```sh
-   iptables-save > /etc/sysconfig/iptables 
-   ```
-## Important notes about your server:
-1) You can use ‘sudo’ to execute commands that require root authority.
-
-2) It could take up to 10 minutes to format and mount the /data disk.  Issue the following command to verify the /data disk is available before continuing:
-   ```sh
-   df -h 
-   ```
-   ![alt text](images/create_schema.png "Check /data disk")
+References
