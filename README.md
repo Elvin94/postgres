@@ -19,3 +19,11 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 
 rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
 
+3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
+   ```sh
+   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+   ```
+   If you want to make your changes permanently, issue this command:
+   ```sh
+   iptables-save > /etc/sysconfig/iptables 
+   ```
