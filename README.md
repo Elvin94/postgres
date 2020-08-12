@@ -55,6 +55,7 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```sh
    psql 
    ```
+   ![alt text](images/psql.png "Check /data disk")
    3.3 Check connection
    ```sh
    \conninfo
