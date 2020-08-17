@@ -9,18 +9,15 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 
 
 ### Step 1: Install postgres database server on LinuxONE Community Cloud
-   1.1 Import postgres package
-   ```sh
-   rpm --import http://packages.2ndquadrant.com/postgresql-z/RPM-GPG-KEY-2NDQ-RHEL7
-   ```
-    
-   1.2 Configure yum repo
-   ```sh
-   yum-config-manager --add-repo http://packages.2ndquadrant.com/postgresql-z/yum/12/rhel7-s390x
-   ```
+  For both RHEL and SLES
    1.3 Install postgresql
+   For RHEL: 
    ```sh
    sudo yum install postgresql-server
+   ```
+   For SLES:
+   ```sh
+   sudo zypper install postgresql-server
    ```
    
    
