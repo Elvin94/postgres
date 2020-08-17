@@ -9,7 +9,7 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
 
 
 ### Step 1: Install postgres database server on LinuxONE Community Cloud
-  For both RHEL and SLES
+ 
    1.3 Install postgresql
    For RHEL: 
    ```sh
