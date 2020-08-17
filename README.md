@@ -82,46 +82,19 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    SELECT * FROM persons; 
    ```
    ![alt text](images/table_empty.png "Check /data disk")
+   
    4.3 Insert data into the table
    ```sh
    INSERT INTO persons(fname,lname,email) VALUES('elvin', 'maditsi', 'elvin@postgres.com'); 
    ```
-   ![alt text](images/insert_data.png "Check /data disk")
+   ![alt text](images/linsert_data.png "Check /data disk")
    
    4.4 List data on table
    ```sh
    SELECT * FROM persons; 
    ```
-   ![alt text](images/table_data.png "Check /data disk")
+   ![alt text](images/data_table.png "Check /data disk")
    
    
    
-   4.1 Create table
-   ```sh
-    CREATE TABLE persons(fname VARCHAR, lname VARCHAR, email VARCHAR);
-   ```
-    ![alt text](images/create_table.png "Check /data disk")
-    
-    
-   
-   4.2 Check table data
-    ```sh
-    SELECT * FROM persons;
-   ```
-    ![alt text](images/create_table.png "Check /data disk")
-   
-   
-   4.3 Insert data
-    ```sh
-    INSERT INTO persons(fname,lname,email) VALUES('elvin', 'maditsi', 'elvin@postgres.com');
-   ```
-    ![alt text](images/insert_data.png "Check /data disk")
-   
-   
-   4.4 List table data
-     ```sh
-    SELECT * FROM persons;
-   ```
-    ![alt text](images/data_table.png "Check /data disk")
-
-
+ 
