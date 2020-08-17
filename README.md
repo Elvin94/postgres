@@ -68,7 +68,8 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```sh
     SELECT VERSION();
    ```
-    ![alt text](images/check_version.png "Check /data disk")
+   ![alt text]( images/check_version.png "Check /data disk")
+   
    
    ### Step 4: Interact with Postgresql Database
    4.1 Create a table called persons
