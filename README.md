@@ -26,15 +26,15 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    
    2.1 Start postgresql service
    ```sh
-   sudo system start postgresql.service 
+   # sudo system start postgresql.service 
    ```
    2.2 Enable postgres
    ```sh
-  sudo system enable postgresql.service 
+   # sudo system enable postgresql.service 
    ```
    2.3 Check status of the postgresql server
    ```sh
-   sudo systemctl status postgresql.service 
+   # sudo systemctl status postgresql.service 
    ```
    
    Optional - Output should look like this
@@ -46,25 +46,25 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    
    3.1 Change the user to default postgres user
    ```sh
-   sudo su - postgres 
+   # sudo su - postgres 
    ```
    ![alt text](images/user_postgres.png "Check /data disk")
    
    3.2 Enter command "psql" to get to postgresql command line
    ```sh
-   psql 
+   # psql 
    ```
    ![alt text](images/psql.png "Check /data disk")
    
    3.3 Check connection
    ```sh
-   \conninfo
+   # \conninfo
    ```
    ![alt text](images/conninfo.png "Check /data disk")
     
    3.4 Check postgres version
    ```sh
-    SELECT VERSION();
+   # SELECT VERSION();
    ```
    ![alt text]( images/check_version.png "Check /data disk")
    
@@ -72,25 +72,25 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ### Step 4: Interact with Postgresql Database
    4.1 Create a table called persons
    ```sh
-   CREATE TABLE persons; 
+   # CREATE TABLE persons; 
    ```
    ![alt text](images/create_table.png "Check /data disk")
    
    4.2 Check the table data 
    ```sh
-   SELECT * FROM persons; 
+   # SELECT * FROM persons; 
    ```
    ![alt text](images/table_empty.png "Check /data disk")
    
    4.3 Insert data into the table
    ```sh
-   INSERT INTO persons(fname,lname,email) VALUES('elvin', 'maditsi', 'elvin@postgres.com'); 
+   # INSERT INTO persons(fname,lname,email) VALUES('elvin', 'maditsi', 'elvin@postgres.com'); 
    ```
    ![alt text](images/Iinsert_data.png "Check /data disk") 
    
    4.4 List data on table
    ```sh
-   SELECT * FROM persons; 
+   # SELECT * FROM persons; 
    ```
    ![alt text](images/data_table.png "Check /data disk")
    
