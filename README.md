@@ -77,7 +77,7 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    ```
    ![alt text](images/create_table.png "Check /data disk")
    
-   4.2 Check the table data
+   4.2 Check the table data 
    ```sh
    SELECT * FROM persons; 
    ```
