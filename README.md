@@ -14,11 +14,11 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
    
    For RHEL: 
    ```sh
-   sudo yum install postgresql-server
+   # sudo yum install postgresql-server
    ```
    For SLES:
    ```sh
-   sudo zypper install postgresql-server
+   # sudo zypper install postgresql-server
    ```
    
    
