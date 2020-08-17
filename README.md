@@ -71,17 +71,25 @@ In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux P
     ![alt text](images/check_version.png "Check /data disk")
    
    ### Step 4: Interact with Postgresql Database
-
-   4.1 Create schema
    
-   4.2 Create user
+   4.1 Create table
+   ```sh
+    CREATE TABLE persons(fname VARCHAR, lname VARCHAR, email VARCHAR);
+   ```
+    ![alt text](images/create_table.png "Check /data disk")
    
-   4.3 Grant privileges to new schema to a new user(Optional)
+   4.2 Check table data
+    ```sh
+    SELECT * FROM persons;
+   ```
+    ![alt text](images/create_table.png "Check /data disk")
    
-   4.4 Grant privileges to tables in the schema to a user(Optional)
+   4.3 Insert data
+    ```sh
+    INSERT INTO persons(elvin, maditsi. elvin@postgres.com);
+   ```
+    ![alt text](images/insert_data.png "Check /data disk")
    
-   4.5 Create table
    
-   4.6 
 
 References
