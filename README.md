@@ -5,7 +5,7 @@ There are benefits running Postgres, the features is aimed to help developers bu
 In this tutorial, we’ll be using Rhel 8 and Sles 15, which are popular Linux Platform compatible to LinuxONE machine. Some steps might be little different if you are using different architecture
 
 ## Prerequisites
- 1. Request access to LinuxONE Community Cloud. Follow instructions [here](https://github.com/Elvin94/LinuxONE-OSS-CC)
+ 1. Request access to LinuxONE Community Cloud. Follow instructions [here]https://github.com/linuxone-community-cloud/technical-resources/blob/master/faststart/deploy-virtual-server.md)
 
 
 ### Step 1: Install postgres database server on LinuxONE Community Cloud
